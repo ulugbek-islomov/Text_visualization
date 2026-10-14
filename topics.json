@@ -1,0 +1,3433 @@
+{
+ "n_docs": 14955,
+ "n_topics": 50,
+ "outlier_share": 0.2752256770310933,
+ "svd_variance": 0.10082047982812531,
+ "params": {
+  "tfidf": "min_df=5, max_df=0.5, 1-2 grams, sublinear tf",
+  "svd": 100,
+  "umap_cluster": "n_neighbors=15, 5-d, cosine, seed 42",
+  "hdbscan": "min_cluster_size=80, min_samples=10"
+ },
+ "topics": [
+  {
+   "topic": 0,
+   "label": "0: ai \u00b7 security \u00b7 attack",
+   "size": 1118,
+   "words": [
+    {
+     "term": "ai",
+     "score": 0.03223777643129777
+    },
+    {
+     "term": "security",
+     "score": 0.017328182179177202
+    },
+    {
+     "term": "attack",
+     "score": 0.016302849861696965
+    },
+    {
+     "term": "human",
+     "score": 0.015763854610830172
+    },
+    {
+     "term": "safety",
+     "score": 0.015574672455626931
+    },
+    {
+     "term": "agents",
+     "score": 0.014219595419324847
+    },
+    {
+     "term": "agentic",
+     "score": 0.014109089542739019
+    },
+    {
+     "term": "agent",
+     "score": 0.01374971604382694
+    },
+    {
+     "term": "layer",
+     "score": 0.01356676131179131
+    },
+    {
+     "term": "systems",
+     "score": 0.013160678895643232
+    },
+    {
+     "term": "governance",
+     "score": 0.012355851886904905
+    },
+    {
+     "term": "llm",
+     "score": 0.01229050883109198
+    }
+   ],
+   "by_year": {
+    "2026": 728,
+    "2025": 370,
+    "2024": 18,
+    "2023": 2
+   },
+   "examples": [
+    "Persistent AI Agents in Academic Research: A Single-Investigator Implementation Case Study",
+    "LLM Agents Should Employ Security Principles",
+    "GenAI-Net: A Generative AI Framework for Automated Biomolecular Network Design",
+    "Safety and accuracy follow different scaling laws in clinical large language models",
+    "Addressing the Reality Gap: A Three-Tension Framework for Agentic AI Adoption",
+    "Beyond Single-Agent Alignment: Preventing Context-Fragmented Violations in Multi-Agent Systems"
+   ]
+  },
+  {
+   "topic": 1,
+   "label": "1: reinforcement learning \u00b7 reward \u00b7 policy",
+   "size": 817,
+   "words": [
+    {
+     "term": "learning",
+     "score": 0.041222879324657735
+    },
+    {
+     "term": "reinforcement learning",
+     "score": 0.03738658177441474
+    },
+    {
+     "term": "reinforcement",
+     "score": 0.03722235851182999
+    },
+    {
+     "term": "reward",
+     "score": 0.025639760107762952
+    },
+    {
+     "term": "policy",
+     "score": 0.01989148533539817
+    },
+    {
+     "term": "rl",
+     "score": 0.016722456733316748
+    },
+    {
+     "term": "agent reinforcement",
+     "score": 0.01582219342568751
+    },
+    {
+     "term": "network",
+     "score": 0.013193759922303773
+    },
+    {
+     "term": "multi",
+     "score": 0.012664298098731534
+    },
+    {
+     "term": "agent",
+     "score": 0.012438955609692891
+    },
+    {
+     "term": "training",
+     "score": 0.012350663705854685
+    },
+    {
+     "term": "critic",
+     "score": 0.012113418929050638
+    }
+   ],
+   "by_year": {
+    "2026": 572,
+    "2025": 219,
+    "2024": 15,
+    "2023": 11
+   },
+   "examples": [
+    "Application of LLM Guided Reinforcement Learning in Formation Control with Collision Avoidance",
+    "Learning to Assist: Physics-Grounded Human-Human Control via Multi-Agent Reinforcement Learning",
+    "BLIP-FusePPO: A Vision-Language Deep Reinforcement Learning Framework for Lane Keeping in Autonomous Vehicles",
+    "Meta-Learning and Meta-Reinforcement Learning - Tracing the Path towards DeepMind\u2019s Adaptive Agent",
+    "RAmmStein: Regime Adaptation in Mean-reverting Markets with Stein thresholds",
+    "Beyond Linear Attention: Softmax Transformers Implement In-Context Reinforcement Learning"
+   ]
+  },
+  {
+   "topic": 2,
+   "label": "2: retrieval \u00b7 knowledge \u00b7 rag",
+   "size": 533,
+   "words": [
+    {
+     "term": "retrieval",
+     "score": 0.03790601261614078
+    },
+    {
+     "term": "knowledge",
+     "score": 0.03368652783556156
+    },
+    {
+     "term": "rag",
+     "score": 0.028109074895964425
+    },
+    {
+     "term": "graph",
+     "score": 0.026548200250383756
+    },
+    {
+     "term": "question",
+     "score": 0.02080914566882993
+    },
+    {
+     "term": "retrieval augmented",
+     "score": 0.020157944726546854
+    },
+    {
+     "term": "augmented",
+     "score": 0.018725761884121356
+    },
+    {
+     "term": "generation",
+     "score": 0.01814897857754203
+    },
+    {
+     "term": "augmented generation",
+     "score": 0.01814352049099572
+    },
+    {
+     "term": "knowledge graph",
+     "score": 0.01743565444177753
+    },
+    {
+     "term": "answering",
+     "score": 0.01673735350242882
+    },
+    {
+     "term": "question answering",
+     "score": 0.016065743036201896
+    }
+   ],
+   "by_year": {
+    "2025": 295,
+    "2026": 212,
+    "2024": 24,
+    "2023": 2
+   },
+   "examples": [
+    "MODE-RAG: Manifold Outlier Diagnosis and Energy-based Retrieval-Augmented Generation Evaluation",
+    "DiscourseFlip: An Oblique Discourse-Level Opinion Manipulation Attack against Black-box Retrieval-Augmented Generation",
+    "A RAG-BASED MULTI-AGENT LLM SYSTEM FOR NATURAL HAZARD RESILIENCE AND ADAPTATION",
+    "When Knowledge Is Not Free: Cost-Aware Evidence Selection in Retrieval-Augmented Generation",
+    "Don\u2019t Make the LLM Read the Graph: Make the Graph Think: Architectural Integration of Belief Graphs for Multi-Agent LLM Reasoning",
+    "SAMVAD: A Multi-Agent System for Simulating Judicial Deliberation Dynamics in India"
+   ]
+  },
+  {
+   "topic": 3,
+   "label": "3: benchmark \u00b7 evaluation \u00b7 evaluating",
+   "size": 332,
+   "words": [
+    {
+     "term": "benchmark",
+     "score": 0.04513836173345586
+    },
+    {
+     "term": "evaluation",
+     "score": 0.027842156381006053
+    },
+    {
+     "term": "evaluating",
+     "score": 0.02739465774433108
+    },
+    {
+     "term": "benchmark evaluating",
+     "score": 0.022067850025225214
+    },
+    {
+     "term": "real world",
+     "score": 0.021140254041413797
+    },
+    {
+     "term": "world",
+     "score": 0.01918458274138526
+    },
+    {
+     "term": "real",
+     "score": 0.01849085933751694
+    },
+    {
+     "term": "tasks",
+     "score": 0.017407579748283962
+    },
+    {
+     "term": "agents",
+     "score": 0.01739524415155226
+    },
+    {
+     "term": "llms",
+     "score": 0.017038709348157408
+    },
+    {
+     "term": "llm",
+     "score": 0.016191620982282582
+    },
+    {
+     "term": "tool",
+     "score": 0.015917820377956558
+    }
+   ],
+   "by_year": {
+    "2026": 183,
+    "2025": 132,
+    "2024": 16,
+    "2023": 1
+   },
+   "examples": [
+    "TimeArena: Shaping Efficient Multitasking Language Agents in a Time-Aware Simulation",
+    "CrackMeBench: Binary Reverse Engineering for Agents",
+    "Fraud-R1 : A Multi-Round Benchmark for Assessing the Robustness of LLM Against Augmented Fraud and Phishing Inducements",
+    "Pitfalls in Evaluating Interpretability Agents",
+    "MLRC-BENCH: Can Language Agents Solve Machine Learning Research Challenges?",
+    "When \"Better\u201d Prompts Hurt: Evaluation-Driven Iteration for LLM Applications"
+   ]
+  },
+  {
+   "topic": 4,
+   "label": "4: reward \u00b7 policy \u00b7 reinforcement",
+   "size": 332,
+   "words": [
+    {
+     "term": "reward",
+     "score": 0.026023772681985434
+    },
+    {
+     "term": "policy",
+     "score": 0.024808159594967794
+    },
+    {
+     "term": "reinforcement",
+     "score": 0.024147564734480848
+    },
+    {
+     "term": "training",
+     "score": 0.024051426866392424
+    },
+    {
+     "term": "reinforcement learning",
+     "score": 0.02375249006390589
+    },
+    {
+     "term": "turn",
+     "score": 0.022745539525815282
+    },
+    {
+     "term": "learning",
+     "score": 0.02243438705571307
+    },
+    {
+     "term": "rl",
+     "score": 0.02202135472027641
+    },
+    {
+     "term": "search",
+     "score": 0.02177275298492448
+    },
+    {
+     "term": "optimization",
+     "score": 0.021393529121805855
+    },
+    {
+     "term": "policy optimization",
+     "score": 0.020776158048758896
+    },
+    {
+     "term": "reasoning",
+     "score": 0.01875980865428776
+    }
+   ],
+   "by_year": {
+    "2026": 216,
+    "2025": 111,
+    "2024": 5
+   },
+   "examples": [
+    "Effective and Transparent RAG: Adaptive-Reward Reinforcement Learning for Decision Traceability",
+    "AstraFlow: Dataflow-Oriented Reinforcement Learning for Agentic LLMs",
+    "BEYOND CORRECTNESS: HARMONIZING PROCESS AND OUTCOME REWARDS THROUGH RL TRAINING",
+    "Mi:dm K 2.5 Pro",
+    "BEYOND OUTCOME REWARD: DECOUPLING SEARCH AND ANSWERING IMPROVES LLM AGENTS",
+    "Consolidation or Adaptation? PRISM: Disentangling SFT and RL Data via Gradient Concentration"
+   ]
+  },
+  {
+   "topic": 5,
+   "label": "5: code generation \u00b7 test \u00b7 agent",
+   "size": 331,
+   "words": [
+    {
+     "term": "code",
+     "score": 0.06852480639579646
+    },
+    {
+     "term": "code generation",
+     "score": 0.031492640078217685
+    },
+    {
+     "term": "generation",
+     "score": 0.02880640893947203
+    },
+    {
+     "term": "test",
+     "score": 0.028386648960356874
+    },
+    {
+     "term": "agent",
+     "score": 0.018984614162552173
+    },
+    {
+     "term": "feedback",
+     "score": 0.01755374743427879
+    },
+    {
+     "term": "llm",
+     "score": 0.016550679300795342
+    },
+    {
+     "term": "repair",
+     "score": 0.016158954820333492
+    },
+    {
+     "term": "iterative",
+     "score": 0.014706288782173354
+    },
+    {
+     "term": "tests",
+     "score": 0.01441374151683718
+    },
+    {
+     "term": "multi agent",
+     "score": 0.013268047142667164
+    },
+    {
+     "term": "multi",
+     "score": 0.012844898624432655
+    }
+   ],
+   "by_year": {
+    "2025": 175,
+    "2026": 135,
+    "2024": 14,
+    "2023": 7
+   },
+   "examples": [
+    "Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering",
+    "Multi-Agent LLM-based Metamorphic Testing for REST APIs",
+    "DocAgent: A Multi-Agent System for Automated Code Documentation Generation",
+    "Program Analysis Guided LLM Agent for Proof-of-Concept Generation",
+    "AutoPatch: Multi-Agent Framework for Patching Real-World CVE Vulnerabilities",
+    "NEO: A CONFIGURABLE MULTI-AGENT FRAMEWORK FOR SCALABLE AND REALISTIC TESTING OF LLM-BASED AGENTS"
+   ]
+  },
+  {
+   "topic": 6,
+   "label": "6: long term \u00b7 term memory \u00b7 retrieval",
+   "size": 320,
+   "words": [
+    {
+     "term": "memory",
+     "score": 0.08829144281490116
+    },
+    {
+     "term": "term",
+     "score": 0.04656270687965812
+    },
+    {
+     "term": "long term",
+     "score": 0.03891554297280669
+    },
+    {
+     "term": "long",
+     "score": 0.030632523960254912
+    },
+    {
+     "term": "term memory",
+     "score": 0.025829024945114607
+    },
+    {
+     "term": "retrieval",
+     "score": 0.021253190265461266
+    },
+    {
+     "term": "short term",
+     "score": 0.01491388026765027
+    },
+    {
+     "term": "short",
+     "score": 0.014877899736495712
+    },
+    {
+     "term": "llm",
+     "score": 0.012759687759853075
+    },
+    {
+     "term": "agent memory",
+     "score": 0.01254507648858908
+    },
+    {
+     "term": "agents",
+     "score": 0.012360222347454373
+    },
+    {
+     "term": "agent",
+     "score": 0.011939987223932339
+    }
+   ],
+   "by_year": {
+    "2026": 208,
+    "2025": 87,
+    "2024": 18,
+    "2023": 7
+   },
+   "examples": [
+    "Hackers or Hallucinators? A Comprehensive Analysis of LLM-Based Automated Penetration Testing",
+    "WorldDB: A Vector Graph-of-Worlds Memory Engine with Ontology-Aware Write-Time Reconciliation",
+    "DelTA: An Online Document-Level Translation Agent Based on Multi-Level Memory",
+    "Towards Test Generation from Task Description for Mobile Testing with Multi-modal Reasoning",
+    "AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts",
+    "AI Agents in Drug Discovery"
+   ]
+  },
+  {
+   "topic": 7,
+   "label": "7: fine tuning \u00b7 data \u00b7 supervised fine",
+   "size": 273,
+   "words": [
+    {
+     "term": "fine",
+     "score": 0.047625833551659995
+    },
+    {
+     "term": "tuning",
+     "score": 0.046832633756322184
+    },
+    {
+     "term": "fine tuning",
+     "score": 0.045904852656946236
+    },
+    {
+     "term": "data",
+     "score": 0.025113573601333688
+    },
+    {
+     "term": "supervised fine",
+     "score": 0.0214653507136891
+    },
+    {
+     "term": "supervised",
+     "score": 0.01964708117904971
+    },
+    {
+     "term": "training",
+     "score": 0.018985046460730046
+    },
+    {
+     "term": "reasoning",
+     "score": 0.014845929702184393
+    },
+    {
+     "term": "llm",
+     "score": 0.014424702734375752
+    },
+    {
+     "term": "model",
+     "score": 0.014388132617276835
+    },
+    {
+     "term": "synthetic",
+     "score": 0.014136569112597664
+    },
+    {
+     "term": "models",
+     "score": 0.013539822440549349
+    }
+   ],
+   "by_year": {
+    "2026": 133,
+    "2025": 115,
+    "2024": 19,
+    "2023": 6
+   },
+   "examples": [
+    "InvestAlign: Overcoming Data Scarcity in Aligning Large Language Models with Investor Decision-Making Processes under Herd Behavior",
+    "Toward a Trustworthy Optimization Modeling Agent via Verifiable Synthetic Data Generation",
+    "RL + Transformer = A General-Purpose Problem Solver",
+    "EPM-RL: Reinforcement Learning for On-Premise Product Mapping in E-Commerce",
+    "Behavioral Canaries: Auditing Private Retrieved Context Usage in RL Fine-Tuning",
+    "Compositional Bias Control in Large Language Models: Preference Learning Fails, Supervision Succeeds"
+   ]
+  },
+  {
+   "topic": 8,
+   "label": "8: agent systems \u00b7 multi agent \u00b7 communication",
+   "size": 266,
+   "words": [
+    {
+     "term": "agent systems",
+     "score": 0.047413839336438
+    },
+    {
+     "term": "multi agent",
+     "score": 0.04061106583643957
+    },
+    {
+     "term": "systems",
+     "score": 0.03995954303073719
+    },
+    {
+     "term": "communication",
+     "score": 0.036849029006616935
+    },
+    {
+     "term": "multi",
+     "score": 0.031875773674551265
+    },
+    {
+     "term": "agent",
+     "score": 0.02950992190879801
+    },
+    {
+     "term": "mas",
+     "score": 0.020762212742373786
+    },
+    {
+     "term": "llm multi",
+     "score": 0.02053483350399647
+    },
+    {
+     "term": "llm",
+     "score": 0.01670191403279018
+    },
+    {
+     "term": "task",
+     "score": 0.015160422987943623
+    },
+    {
+     "term": "topology",
+     "score": 0.014924352468267017
+    },
+    {
+     "term": "graph",
+     "score": 0.012052587266343917
+    }
+   ],
+   "by_year": {
+    "2026": 156,
+    "2025": 104,
+    "2024": 6
+   },
+   "examples": [
+    "OxyGent: Making Multi-Agent Systems Modular, Observable, and Evolvable via Oxy Abstraction",
+    "ValueFlow: Measuring the Propagation of Value Perturbations in Multi-Agent LLM Systems",
+    "SC-MAS: Constructing Cost-Efficient Multi-Agent Systems with Edge-Level Heterogeneous Collaboration",
+    "Learning Multi-Agent Communication Protocol: Study on Information Entropy Efficiency in MARL",
+    "MasRouter: Learning to Route LLMs for Multi-Agent Systems",
+    "TacoMAS: Test-Time Co-Evolution of Topology and Capability in LLM-based Multi-Agent Systems"
+   ]
+  },
+  {
+   "topic": 9,
+   "label": "9: large language \u00b7 language models \u00b7 llms",
+   "size": 262,
+   "words": [
+    {
+     "term": "large language",
+     "score": 0.03824552851046512
+    },
+    {
+     "term": "language models",
+     "score": 0.035360648701372045
+    },
+    {
+     "term": "language",
+     "score": 0.03471131260375361
+    },
+    {
+     "term": "large",
+     "score": 0.03428790128322855
+    },
+    {
+     "term": "models",
+     "score": 0.030284199340930917
+    },
+    {
+     "term": "llms",
+     "score": 0.029283532248743825
+    },
+    {
+     "term": "llm",
+     "score": 0.019133001938701856
+    },
+    {
+     "term": "model",
+     "score": 0.015513560880275728
+    },
+    {
+     "term": "human",
+     "score": 0.015125185764054073
+    },
+    {
+     "term": "language model",
+     "score": 0.014479256506285
+    },
+    {
+     "term": "self",
+     "score": 0.012721616495894598
+    },
+    {
+     "term": "study",
+     "score": 0.011065737959335364
+    }
+   ],
+   "by_year": {
+    "2025": 117,
+    "2026": 76,
+    "2024": 53,
+    "2023": 16
+   },
+   "examples": [
+    "Identifying High-Confidence Social Biases in LLMs for Trustworthy Conversational Tutoring Agents",
+    "Continual Learning in Large Language Models: Methods, Challenges, and Opportunities",
+    "Persona Generators: Generating Diverse Synthetic Personas at Scale",
+    "Can large language models assist choice modelling? Insights into prompting strategies and current models capabilities",
+    "Why Solving Multi-agent Path Finding with Large Language Model has not Succeeded Yet",
+    "TIME-TO-INCONSISTENCY: A SURVIVAL ANALYSIS OF LARGE LANGUAGE MODEL ROBUSTNESS TO ADVERSARIAL ATTACKS"
+   ]
+  },
+  {
+   "topic": 10,
+   "label": "10: agent skills \u00b7 library \u00b7 procedural",
+   "size": 254,
+   "words": [
+    {
+     "term": "skill",
+     "score": 0.11013776057062719
+    },
+    {
+     "term": "skills",
+     "score": 0.06830587483834431
+    },
+    {
+     "term": "agent skills",
+     "score": 0.02418107413655138
+    },
+    {
+     "term": "library",
+     "score": 0.01768616553379853
+    },
+    {
+     "term": "agent",
+     "score": 0.016871733733372633
+    },
+    {
+     "term": "procedural",
+     "score": 0.014888186672460807
+    },
+    {
+     "term": "agent skill",
+     "score": 0.014119061864564417
+    },
+    {
+     "term": "task",
+     "score": 0.013298227141441564
+    },
+    {
+     "term": "llm",
+     "score": 0.012678071715213951
+    },
+    {
+     "term": "reusable",
+     "score": 0.012345086306329075
+    },
+    {
+     "term": "evolving",
+     "score": 0.012290563477382695
+    },
+    {
+     "term": "skill library",
+     "score": 0.012277445099621235
+    }
+   ],
+   "by_year": {
+    "2026": 235,
+    "2025": 15,
+    "2024": 4
+   },
+   "examples": [
+    "SwarmHarness: Skill-Based Task Routing via Decentralized Incentive-Aligned AI Agent Networks",
+    "SoftSkill: Behavioral Compression for Contextual Adaptation",
+    "Lifelong Language-Conditioned Robotic Manipulation Learning",
+    "Partner-Aware Hierarchical Skill Discovery for Robust Human-AI Collaboration",
+    "Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents",
+    "Agent Skills Should Go Beyond Text: The Case for Visual Skills"
+   ]
+  },
+  {
+   "topic": 11,
+   "label": "11: social \u00b7 simulation \u00b7 opinion",
+   "size": 248,
+   "words": [
+    {
+     "term": "social",
+     "score": 0.08976271232460002
+    },
+    {
+     "term": "simulation",
+     "score": 0.03441222994318509
+    },
+    {
+     "term": "opinion",
+     "score": 0.02386189261081727
+    },
+    {
+     "term": "agents",
+     "score": 0.022166786316403193
+    },
+    {
+     "term": "network",
+     "score": 0.019382055158238123
+    },
+    {
+     "term": "dynamics",
+     "score": 0.019015687865893163
+    },
+    {
+     "term": "llm",
+     "score": 0.01842095078600895
+    },
+    {
+     "term": "simulations",
+     "score": 0.016170402955494285
+    },
+    {
+     "term": "agent",
+     "score": 0.01594832665382343
+    },
+    {
+     "term": "media",
+     "score": 0.014589408190305303
+    },
+    {
+     "term": "social media",
+     "score": 0.014545972782775203
+    },
+    {
+     "term": "llm agents",
+     "score": 0.014418898409251027
+    }
+   ],
+   "by_year": {
+    "2026": 128,
+    "2025": 103,
+    "2024": 17
+   },
+   "examples": [
+    "Personalized Large Language Models Can Increase the Belief Accuracy of Social Networks",
+    "Parasitic Masquerade: Societal Scale Human\u2013Machine Interaction",
+    "Learning dynamics from online-offline systems of LLM agents",
+    "Agent-based Simulation for Drone Charging in an Internet of Things Environment System",
+    "On a Co-evolving Opinion-Leadership Model in Social Networks",
+    "HBEE: Human Behavioral Entropy Engine Pre-Registered Multi-Agent LLM Simulation of Peer-Suspicion-Based Detection Inversion"
+   ]
+  },
+  {
+   "topic": 12,
+   "label": "12: user \u00b7 dialogue \u00b7 conversational",
+   "size": 236,
+   "words": [
+    {
+     "term": "user",
+     "score": 0.047608391808695236
+    },
+    {
+     "term": "dialogue",
+     "score": 0.03121627165815923
+    },
+    {
+     "term": "conversational",
+     "score": 0.02702574491580264
+    },
+    {
+     "term": "personalized",
+     "score": 0.022212761563618875
+    },
+    {
+     "term": "llm",
+     "score": 0.017704083384396687
+    },
+    {
+     "term": "student",
+     "score": 0.016510434292379993
+    },
+    {
+     "term": "agent",
+     "score": 0.01590342518234872
+    },
+    {
+     "term": "recommendation",
+     "score": 0.015730017229576253
+    },
+    {
+     "term": "learning",
+     "score": 0.013411805179294706
+    },
+    {
+     "term": "interaction",
+     "score": 0.013300984788218994
+    },
+    {
+     "term": "support",
+     "score": 0.012669384348287835
+    },
+    {
+     "term": "speech",
+     "score": 0.012206880362254762
+    }
+   ],
+   "by_year": {
+    "2025": 110,
+    "2026": 104,
+    "2024": 20,
+    "2023": 2
+   },
+   "examples": [
+    "PersonaX: A Recommendation Agent-Oriented User Modeling Framework for Long Behavior Sequence",
+    "The Bots of Persuasion: Examining How Conversational Agents\u2019 Linguistic Expressions of Personality Affect User Perceptions and Decisions",
+    "Probing More-Than-Human Representation in Crisis Resilience Planning: An HCI Researcher Perspective",
+    "AI PERSONA: Towards Life-long Personalization of LLMs",
+    "Revisiting put-that-there, context aware window interactions via LLMs",
+    "Towards Embodied Conversational Agents for Reducing Oral Exam Anxiety in Extended Reality"
+   ]
+  },
+  {
+   "topic": 13,
+   "label": "13: clinical \u00b7 medical \u00b7 patient",
+   "size": 228,
+   "words": [
+    {
+     "term": "clinical",
+     "score": 0.08206307273970356
+    },
+    {
+     "term": "medical",
+     "score": 0.0478381817733087
+    },
+    {
+     "term": "patient",
+     "score": 0.043644197524443
+    },
+    {
+     "term": "diagnostic",
+     "score": 0.029085617720079195
+    },
+    {
+     "term": "diagnosis",
+     "score": 0.02489769040033895
+    },
+    {
+     "term": "agent",
+     "score": 0.01770783825193041
+    },
+    {
+     "term": "reasoning",
+     "score": 0.01658798742182445
+    },
+    {
+     "term": "multi",
+     "score": 0.01564636767808411
+    },
+    {
+     "term": "evidence",
+     "score": 0.014294822689873267
+    },
+    {
+     "term": "multi agent",
+     "score": 0.013301548281522265
+    },
+    {
+     "term": "llm",
+     "score": 0.011592436802494452
+    },
+    {
+     "term": "structured",
+     "score": 0.01156832824409987
+    }
+   ],
+   "by_year": {
+    "2026": 122,
+    "2025": 99,
+    "2024": 7
+   },
+   "examples": [
+    "A Proactive Multi-Agent Dialogue Framework for Assessing Social Language Disorder Traits in Autism",
+    "Patient-Zero: A Unified Framework for Real-Record-Free Patient Agent Generation",
+    "Advancing Multimodal Medical Capabilities of Gemini",
+    "LiteOdyssey: A Lightweight Reasoning AI Agent for Interpretable Rare-Disease Diagnosis",
+    "Empowering Healthcare Practitioners with Language Models: Structuring Speech Transcripts in Two Real-World Clinical Applications",
+    "MedConceal: A Benchmark for Clinical Hidden-Concern Reasoning Under Partial Observability"
+   ]
+  },
+  {
+   "topic": 14,
+   "label": "14: gui agents \u00b7 mobile \u00b7 grounding",
+   "size": 225,
+   "words": [
+    {
+     "term": "gui",
+     "score": 0.11173567713164272
+    },
+    {
+     "term": "gui agents",
+     "score": 0.04795207518183028
+    },
+    {
+     "term": "mobile",
+     "score": 0.02573308360926309
+    },
+    {
+     "term": "gui agent",
+     "score": 0.02446379997496545
+    },
+    {
+     "term": "grounding",
+     "score": 0.022431254541763007
+    },
+    {
+     "term": "action",
+     "score": 0.018836413019691786
+    },
+    {
+     "term": "agents",
+     "score": 0.018417892335138
+    },
+    {
+     "term": "ui",
+     "score": 0.017221003989259333
+    },
+    {
+     "term": "task",
+     "score": 0.014534807627049205
+    },
+    {
+     "term": "training",
+     "score": 0.013149813646102867
+    },
+    {
+     "term": "agent",
+     "score": 0.012840561185890336
+    },
+    {
+     "term": "tasks",
+     "score": 0.011078993985938462
+    }
+   ],
+   "by_year": {
+    "2026": 105,
+    "2025": 103,
+    "2024": 15,
+    "2023": 2
+   },
+   "examples": [
+    "GUI Agents with Foundation Models: A Comprehensive Survey",
+    "See, Point, Refine: Multi-Turn Approach to GUI Grounding with Visual Feedback",
+    "AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management",
+    "AndroidDaily: A Verifiable Benchmark for Mobile GUI Agents on Real-World Closed-Source Applications",
+    "Don\u2019t Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction",
+    "MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents"
+   ]
+  },
+  {
+   "topic": 15,
+   "label": "15: cache \u00b7 kv \u00b7 context",
+   "size": 222,
+   "words": [
+    {
+     "term": "cache",
+     "score": 0.04598849690089583
+    },
+    {
+     "term": "kv",
+     "score": 0.04331537997616174
+    },
+    {
+     "term": "context",
+     "score": 0.03571118620301982
+    },
+    {
+     "term": "kv cache",
+     "score": 0.032561971126952284
+    },
+    {
+     "term": "long context",
+     "score": 0.02530223272762699
+    },
+    {
+     "term": "serving",
+     "score": 0.024351168704480782
+    },
+    {
+     "term": "attention",
+     "score": 0.023452540160132054
+    },
+    {
+     "term": "inference",
+     "score": 0.02220813505457342
+    },
+    {
+     "term": "token",
+     "score": 0.018305676098225334
+    },
+    {
+     "term": "efficient",
+     "score": 0.017665805371869084
+    },
+    {
+     "term": "long",
+     "score": 0.017207152944656526
+    },
+    {
+     "term": "latency",
+     "score": 0.016504415775223588
+    }
+   ],
+   "by_year": {
+    "2026": 139,
+    "2025": 69,
+    "2024": 13,
+    "2023": 1
+   },
+   "examples": [
+    "Omission Constraints Decay While Commission Constraints Persist in Long-Context LLM Agents",
+    "Merlin: Deterministic Byte-Exact Deduplication for Lossless Context Optimization in Large Language Model Inference",
+    "diff History for Long-Context Language Agents",
+    "The Reservoir Attention Network: Cross-Pass State in Pretrained Transformers via Content-Addressable Reservoir Injection",
+    "MemExplorer: Navigating the Heterogeneous Memory Design Space for Agentic Inference NPUs",
+    "Slow-Fast Inference: Training-Free Inference Acceleration via Within-Sentence Support Stability"
+   ]
+  },
+  {
+   "topic": 16,
+   "label": "16: long horizon \u00b7 memory \u00b7 tasks",
+   "size": 221,
+   "words": [
+    {
+     "term": "long horizon",
+     "score": 0.07163642228395736
+    },
+    {
+     "term": "horizon",
+     "score": 0.0713905615693149
+    },
+    {
+     "term": "long",
+     "score": 0.05848840697766172
+    },
+    {
+     "term": "memory",
+     "score": 0.02440773178382069
+    },
+    {
+     "term": "tasks",
+     "score": 0.018785604086276837
+    },
+    {
+     "term": "planning",
+     "score": 0.016013480182708754
+    },
+    {
+     "term": "agents",
+     "score": 0.013843470545476258
+    },
+    {
+     "term": "benchmark",
+     "score": 0.013718928464145613
+    },
+    {
+     "term": "horizon tasks",
+     "score": 0.013553725744611412
+    },
+    {
+     "term": "context",
+     "score": 0.012433344316861734
+    },
+    {
+     "term": "task",
+     "score": 0.011901422773281913
+    },
+    {
+     "term": "agent",
+     "score": 0.011611476302886739
+    }
+   ],
+   "by_year": {
+    "2026": 189,
+    "2025": 26,
+    "2024": 5,
+    "2023": 1
+   },
+   "examples": [
+    "Constraint-Aware Corrective Memory for Language-Based Drug Discovery Agents",
+    "HIPIF: Hierarchical Planning and Information Folding for Long-Horizon LLM Agent Learning",
+    "Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory",
+    "Anchor: Mitigating Artifact Drift in Agent Benchmark Generation",
+    "Revealing the Barriers of Language Agents in Planning",
+    "Stateless Decision Memory for Enterprise AI Agents"
+   ]
+  },
+  {
+   "topic": 17,
+   "label": "17: end end \u00b7 agent \u00b7 data",
+   "size": 216,
+   "words": [
+    {
+     "term": "end",
+     "score": 0.08463286538605781
+    },
+    {
+     "term": "end end",
+     "score": 0.05262592508448132
+    },
+    {
+     "term": "agent",
+     "score": 0.015327007693227375
+    },
+    {
+     "term": "data",
+     "score": 0.014867927529385289
+    },
+    {
+     "term": "agents",
+     "score": 0.013716749971694711
+    },
+    {
+     "term": "llm",
+     "score": 0.013667303188683436
+    },
+    {
+     "term": "workflows",
+     "score": 0.011076336141519821
+    },
+    {
+     "term": "multi",
+     "score": 0.010936207254179287
+    },
+    {
+     "term": "agentic",
+     "score": 0.010788414470896275
+    },
+    {
+     "term": "execution",
+     "score": 0.010559423903199546
+    },
+    {
+     "term": "analysis",
+     "score": 0.010422611962155806
+    },
+    {
+     "term": "design",
+     "score": 0.010320879096975256
+    }
+   ],
+   "by_year": {
+    "2026": 136,
+    "2025": 80
+   },
+   "examples": [
+    "KISS \u2013 Knowledge Infrastructure for Scientific Simulation: A Scaffolding for Agentic Earth Science",
+    "FlightSense: An End-to-End MLOps Platform for Real-Time Flight Delay Prediction via Rotation-Chain Propagation Features and Agentic Conversational AI",
+    "Saarthi for AGI: Towards Domain-Specific General Intelligence for Formal Verification",
+    "LecturaAgents: A Multi-Agent Framework for Adaptive Personalized AI-Assisted Learning and Embodied Teaching",
+    "EXP-Bench: Can AI Conduct AI Research Experiments?",
+    "From Text to Simulation: A Multi-Agent LLM Workflow for Automated Chemical Process Design"
+   ]
+  },
+  {
+   "topic": 18,
+   "label": "18: detection \u00b7 multi agent \u00b7 analysis",
+   "size": 206,
+   "words": [
+    {
+     "term": "detection",
+     "score": 0.031037301320649007
+    },
+    {
+     "term": "agent",
+     "score": 0.023665254512858162
+    },
+    {
+     "term": "multi agent",
+     "score": 0.021558662021296474
+    },
+    {
+     "term": "multi",
+     "score": 0.021406736912664332
+    },
+    {
+     "term": "analysis",
+     "score": 0.02103556675562336
+    },
+    {
+     "term": "vulnerability",
+     "score": 0.02013971726388875
+    },
+    {
+     "term": "specialized",
+     "score": 0.019158383578802334
+    },
+    {
+     "term": "llm",
+     "score": 0.016016086167953855
+    },
+    {
+     "term": "domain",
+     "score": 0.015902035840228885
+    },
+    {
+     "term": "design",
+     "score": 0.014854118204413146
+    },
+    {
+     "term": "agents",
+     "score": 0.013927414402231261
+    },
+    {
+     "term": "vulnerability detection",
+     "score": 0.013891415328837054
+    }
+   ],
+   "by_year": {
+    "2026": 103,
+    "2025": 102,
+    "2024": 1
+   },
+   "examples": [
+    "QUITE: A Query Rewrite System Beyond Rules with LLM Agents",
+    "Poster: Enhancing GNN Robustness for Network Intrusion Detection via Agent-based Analysis",
+    "Multi-Agentic Approach for History Matching of Oil Reservoirs",
+    "iReDev: A Knowledge-Driven Multi-Agent Framework for Intelligent Requirements Development",
+    "A Symbolic Adversarial Learning Framework for Evolving Fake News Generation and Detection",
+    "One Request, Multiple Experts: LLM Orchestrates Domain Specific Models via Adaptive Task Routing"
+   ]
+  },
+  {
+   "topic": 19,
+   "label": "19: optimal \u00b7 establishes \u00b7 bounds",
+   "size": 198,
+   "words": [
+    {
+     "term": "optimal",
+     "score": 0.03625856184149724
+    },
+    {
+     "term": "establishes",
+     "score": 0.03425615619478938
+    },
+    {
+     "term": "bounds",
+     "score": 0.0307541242084487
+    },
+    {
+     "term": "fairness",
+     "score": 0.029711543049428437
+    },
+    {
+     "term": "fair",
+     "score": 0.027781280985811375
+    },
+    {
+     "term": "algorithm",
+     "score": 0.027097968550199653
+    },
+    {
+     "term": "allocation",
+     "score": 0.026901967646808567
+    },
+    {
+     "term": "welfare",
+     "score": 0.02455113985268339
+    },
+    {
+     "term": "polynomial",
+     "score": 0.023674469043694742
+    },
+    {
+     "term": "existence",
+     "score": 0.022044047304213586
+    },
+    {
+     "term": "matching",
+     "score": 0.021936114756447588
+    },
+    {
+     "term": "algorithms",
+     "score": 0.020491017065166962
+    }
+   ],
+   "by_year": {
+    "2026": 191,
+    "2025": 6,
+    "2024": 1
+   },
+   "examples": [
+    "Tight Bounds on Window Size and Time for Single-Agent Graph Exploration under T-Interval Connectivity",
+    "Fair and Efficient Balanced Allocation for Indivisible Goods",
+    "Control in Hedonic Games",
+    "Optimally Auditing Adversarial Agents",
+    "Verification of Stochastic Dominance Envy-Freeness in Time Proportional to Input Size",
+    "Optimal extraction with an impact on diffusion-jump pricing"
+   ]
+  },
+  {
+   "topic": 20,
+   "label": "20: games \u00b7 equilibrium \u00b7 nash",
+   "size": 198,
+   "words": [
+    {
+     "term": "game",
+     "score": 0.07610958942268363
+    },
+    {
+     "term": "games",
+     "score": 0.057777218256191774
+    },
+    {
+     "term": "equilibrium",
+     "score": 0.039624390508254614
+    },
+    {
+     "term": "nash",
+     "score": 0.03709128511637621
+    },
+    {
+     "term": "game theoretic",
+     "score": 0.03302523050660589
+    },
+    {
+     "term": "theoretic",
+     "score": 0.03296590555298764
+    },
+    {
+     "term": "strategic",
+     "score": 0.025690347466484718
+    },
+    {
+     "term": "equilibria",
+     "score": 0.021900020479781523
+    },
+    {
+     "term": "nash equilibrium",
+     "score": 0.020620685417114863
+    },
+    {
+     "term": "sum",
+     "score": 0.016270247717613553
+    },
+    {
+     "term": "player",
+     "score": 0.014562064065993266
+    },
+    {
+     "term": "best response",
+     "score": 0.013287306460011902
+    }
+   ],
+   "by_year": {
+    "2026": 134,
+    "2025": 57,
+    "2024": 6,
+    "2023": 1
+   },
+   "examples": [
+    "ChargingBoul: A Competitive Negotiating Agent with Novel Opponent Modeling",
+    "Bayesian Learning in Episodic Zero-Sum Games",
+    "The Effect of State Representation on LLM Agent Behavior in Dynamic Routing Games",
+    "HYCO: A FORMALISM FOR HYBRID-COOPERATIVE PDE MODELLING",
+    "Verification of Correlated Equilibria in Concurrent Reachability Games",
+    "On Two-Player Scalar Discrete-Time Linear Quadratic Games"
+   ]
+  },
+  {
+   "topic": 21,
+   "label": "21: real time \u00b7 edge \u00b7 network",
+   "size": 194,
+   "words": [
+    {
+     "term": "real time",
+     "score": 0.03438116764813514
+    },
+    {
+     "term": "real",
+     "score": 0.02749391547896073
+    },
+    {
+     "term": "time",
+     "score": 0.026520823361093397
+    },
+    {
+     "term": "edge",
+     "score": 0.025655757149819092
+    },
+    {
+     "term": "network",
+     "score": 0.024513487947025837
+    },
+    {
+     "term": "ai",
+     "score": 0.02335126242883703
+    },
+    {
+     "term": "networks",
+     "score": 0.02164796714009141
+    },
+    {
+     "term": "resource",
+     "score": 0.01868312488725721
+    },
+    {
+     "term": "architecture",
+     "score": 0.017824616073317773
+    },
+    {
+     "term": "6g",
+     "score": 0.01685024657734172
+    },
+    {
+     "term": "agentic ai",
+     "score": 0.015858931590346237
+    },
+    {
+     "term": "layer",
+     "score": 0.015676750931440338
+    }
+   ],
+   "by_year": {
+    "2026": 116,
+    "2025": 72,
+    "2024": 6
+   },
+   "examples": [
+    "Real-Time AI Service Economy: A Framework for Agentic Computing Across the Continuum",
+    "First Field-Trial Demonstration of L4 Autonomous Optical Network for Distributed AI Training Communication: An LLM-Powered Multi-AI-Agent Solution",
+    "Towards Agentic Test-Driven Quality Assurance for 6G Networks",
+    "A Reconfigurable Framework for AI-FPGA Agent Integration and Acceleration",
+    "Cyber Resilience in Next-Generation Networks: Threat Landscape, Theoretical Foundations, and Design Paradigms",
+    "TARMM: Scaling Delay-Critical Edge AI Offloading in 5G O-RAN via Temporal Graph Mobility Management"
+   ]
+  },
+  {
+   "topic": 22,
+   "label": "22: high level \u00b7 low level \u00b7 robot",
+   "size": 183,
+   "words": [
+    {
+     "term": "level",
+     "score": 0.050482692217351584
+    },
+    {
+     "term": "high level",
+     "score": 0.040250680631474064
+    },
+    {
+     "term": "low level",
+     "score": 0.03747246067356118
+    },
+    {
+     "term": "low",
+     "score": 0.031243932649583455
+    },
+    {
+     "term": "high",
+     "score": 0.027267690708020872
+    },
+    {
+     "term": "robot",
+     "score": 0.025451926724169547
+    },
+    {
+     "term": "hierarchical",
+     "score": 0.02295814784564877
+    },
+    {
+     "term": "planning",
+     "score": 0.022513143654069395
+    },
+    {
+     "term": "task",
+     "score": 0.02008291027482267
+    },
+    {
+     "term": "execution",
+     "score": 0.015164813123254474
+    },
+    {
+     "term": "level policy",
+     "score": 0.01489131154787931
+    },
+    {
+     "term": "action",
+     "score": 0.01455798723633832
+    }
+   ],
+   "by_year": {
+    "2026": 86,
+    "2025": 75,
+    "2024": 20,
+    "2023": 2
+   },
+   "examples": [
+    "Large Language Models to the Rescue: Deadlock Resolution in Multi-Robot Systems",
+    "Enhancing LLM-Based Agents via Global Planning and Hierarchical Execution",
+    "Chain Of Interaction Benchmark (COIN): When Reasoning Meets Embodied Interaction",
+    "From Instruction to Event: Sound-Triggered Mobile Manipulation",
+    "Patch-Based Spatial Authorship Attribution in Human\u2013Robot Collaborative Paintings",
+    "Details Make a Difference: Object State-Sensitive Neurorobotic Task Planning"
+   ]
+  },
+  {
+   "topic": 23,
+   "label": "23: scientific \u00b7 discovery \u00b7 research",
+   "size": 172,
+   "words": [
+    {
+     "term": "scientific",
+     "score": 0.08145433455113213
+    },
+    {
+     "term": "discovery",
+     "score": 0.049975238277980776
+    },
+    {
+     "term": "research",
+     "score": 0.043430979566735015
+    },
+    {
+     "term": "scientific discovery",
+     "score": 0.035273227312002775
+    },
+    {
+     "term": "autonomous",
+     "score": 0.022130664158569652
+    },
+    {
+     "term": "ai",
+     "score": 0.019907599953607268
+    },
+    {
+     "term": "literature",
+     "score": 0.01660720212323648
+    },
+    {
+     "term": "review",
+     "score": 0.01607033100337323
+    },
+    {
+     "term": "agents",
+     "score": 0.014206102283490112
+    },
+    {
+     "term": "scientist",
+     "score": 0.013496914222487463
+    },
+    {
+     "term": "agent",
+     "score": 0.013260043603599838
+    },
+    {
+     "term": "hypothesis",
+     "score": 0.013152221772221986
+    }
+   ],
+   "by_year": {
+    "2026": 85,
+    "2025": 79,
+    "2024": 8
+   },
+   "examples": [
+    "When AI Does Science: Evaluating the Autonomous AI Scientist KOSMOS in Radiation Biology",
+    "EvoMaster: A Foundational Agent Framework for Building Evolving Autonomous Scientific Agents at Scale",
+    "Harnessing the Collective Intelligence of AI Agents in the Wild for New Discoveries",
+    "Virtuous Machines: Towards Artificial General Science",
+    "AUTOSCIENTISTS: Self-Organizing Agent Teams for Long-Running Scientific Experimentation",
+    "How Far Are We From True Auto-Research?"
+   ]
+  },
+  {
+   "topic": 24,
+   "label": "24: decision making \u00b7 llms \u00b7 agents",
+   "size": 169,
+   "words": [
+    {
+     "term": "decision",
+     "score": 0.06747559291898611
+    },
+    {
+     "term": "decision making",
+     "score": 0.06221483369713585
+    },
+    {
+     "term": "making",
+     "score": 0.06210988446687289
+    },
+    {
+     "term": "llm",
+     "score": 0.016023486753030437
+    },
+    {
+     "term": "llms",
+     "score": 0.013048280332007658
+    },
+    {
+     "term": "agents",
+     "score": 0.01290113168486894
+    },
+    {
+     "term": "action",
+     "score": 0.012671945306402404
+    },
+    {
+     "term": "agent",
+     "score": 0.012514322946725775
+    },
+    {
+     "term": "strategic",
+     "score": 0.01151175317275505
+    },
+    {
+     "term": "game",
+     "score": 0.011243220614750074
+    },
+    {
+     "term": "llm agents",
+     "score": 0.010454762378765269
+    },
+    {
+     "term": "human",
+     "score": 0.010276038436665278
+    }
+   ],
+   "by_year": {
+    "2026": 79,
+    "2025": 79,
+    "2024": 8,
+    "2023": 3
+   },
+   "examples": [
+    "Dynamics of Cognitive Heterogeneity: Investigating Behavioral Biases in Multi-Stage Supply Chains with LLM-Based Simulation",
+    "STEERING PROSOCIAL AI AGENTS: COMPUTATIONAL BASIS OF LLM'S DECISION MAKING IN SOCIAL SIMULATION",
+    "Performance Guarantees for Data-Driven Sequential Decision-Making",
+    "Self-Generated In-Context Examples Improve LLM Agents for Sequential Decision-Making Tasks",
+    "PEMANT: Persona-Enriched Multi-Agent Negotiation for Travel",
+    "Attribution-based Explanations for Markov Decision Processes"
+   ]
+  },
+  {
+   "topic": 25,
+   "label": "25: coding agents \u00b7 pull \u00b7 code",
+   "size": 165,
+   "words": [
+    {
+     "term": "coding",
+     "score": 0.06647221732104465
+    },
+    {
+     "term": "coding agents",
+     "score": 0.0518239283173345
+    },
+    {
+     "term": "pull",
+     "score": 0.03715788642414324
+    },
+    {
+     "term": "code",
+     "score": 0.0325847953678905
+    },
+    {
+     "term": "study",
+     "score": 0.03078733686761802
+    },
+    {
+     "term": "requests",
+     "score": 0.025962340713530197
+    },
+    {
+     "term": "ai coding",
+     "score": 0.022648358852094066
+    },
+    {
+     "term": "agents",
+     "score": 0.020576845213798704
+    },
+    {
+     "term": "empirical",
+     "score": 0.018987079467117588
+    },
+    {
+     "term": "ai",
+     "score": 0.01789417575919954
+    },
+    {
+     "term": "review",
+     "score": 0.017649166468980102
+    },
+    {
+     "term": "empirical study",
+     "score": 0.0172488083524276
+    }
+   ],
+   "by_year": {
+    "2026": 144,
+    "2025": 19,
+    "2024": 2
+   },
+   "examples": [
+    "SWE-Explore: Benchmarking How Coding Agents Explore Repositories",
+    "Sema Code: Decoupling AI Coding Agents into Programmable, Embeddable Infrastructure",
+    "AI Coding Agents Can Reproduce Social Science Findings",
+    "Let's Make Every Pull Request Meaningful: An Empirical Analysis of Developer and Agentic Pull Requests",
+    "ASYMMETRIC GOAL DRIFT IN CODING AGENTS UNDER VALUE CONFLICT",
+    "When Developer Aid Becomes Security Debt: A Systematic Analysis of Insecure Behaviors in LLM Coding Agents"
+   ]
+  },
+  {
+   "topic": 26,
+   "label": "26: self evolving \u00b7 evolution \u00b7 experience",
+   "size": 163,
+   "words": [
+    {
+     "term": "self",
+     "score": 0.07119568816362015
+    },
+    {
+     "term": "self evolving",
+     "score": 0.05818985619712719
+    },
+    {
+     "term": "evolving",
+     "score": 0.05573070461883613
+    },
+    {
+     "term": "evolution",
+     "score": 0.026850251173194516
+    },
+    {
+     "term": "experience",
+     "score": 0.020402004192938486
+    },
+    {
+     "term": "agent",
+     "score": 0.017861005760876562
+    },
+    {
+     "term": "memory",
+     "score": 0.016288941880277855
+    },
+    {
+     "term": "self evolution",
+     "score": 0.01569508119901182
+    },
+    {
+     "term": "evolving llm",
+     "score": 0.015340245330430468
+    },
+    {
+     "term": "agents",
+     "score": 0.014919863870239677
+    },
+    {
+     "term": "llm",
+     "score": 0.013855423180952904
+    },
+    {
+     "term": "feedback",
+     "score": 0.012721775852638083
+    }
+   ],
+   "by_year": {
+    "2026": 105,
+    "2025": 49,
+    "2024": 9
+   },
+   "examples": [
+    "SETUPX: Can LLM Agents Learn from Past Failures in Functionality-Correct Code Repository Setup?",
+    "When Rules Learn: A Self-Evolving Agent for Legal Case Retrieval",
+    "OctoT2I: A Self-Evolving Agentic Text-to-Image Router",
+    "From Shallow Humor to Metaphor: Towards Label-Free Harmful Meme Detection via LMM Agent Self-Improvement",
+    "Self-Evolving Software Agents: Extended Abstract",
+    "The Path of Self-Evolving Large Language Models: Achieving Data-Efficient Learning via Intrinsic Feedback"
+   ]
+  },
+  {
+   "topic": 27,
+   "label": "27: symbolic \u00b7 formal \u00b7 proof",
+   "size": 160,
+   "words": [
+    {
+     "term": "symbolic",
+     "score": 0.056311606717490005
+    },
+    {
+     "term": "formal",
+     "score": 0.03728391847657312
+    },
+    {
+     "term": "proof",
+     "score": 0.03604695706530753
+    },
+    {
+     "term": "neuro symbolic",
+     "score": 0.03580415743219475
+    },
+    {
+     "term": "neuro",
+     "score": 0.03541923221169415
+    },
+    {
+     "term": "verification",
+     "score": 0.03260318432813922
+    },
+    {
+     "term": "lean",
+     "score": 0.028115678026622976
+    },
+    {
+     "term": "theorem",
+     "score": 0.02640737470437562
+    },
+    {
+     "term": "proving",
+     "score": 0.02406083415227685
+    },
+    {
+     "term": "mathematical",
+     "score": 0.020121046246868737
+    },
+    {
+     "term": "theorem proving",
+     "score": 0.01932635435192083
+    },
+    {
+     "term": "formal verification",
+     "score": 0.018245333142731038
+    }
+   ],
+   "by_year": {
+    "2026": 116,
+    "2025": 44
+   },
+   "examples": [
+    "Pragmos: A Process Agentic Modeling System",
+    "QED: An Open-Source Multi-Agent System for Generating Mathematical Proofs on Open Problems",
+    "Trustworthy Software Project Generation : a Case Study with an Interactive Theorem Prover",
+    "VERI-SURE: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation",
+    "A Minimal Agent for Automated Theorem Proving",
+    "Proof2Silicon: Prompt Repair for Verified Code and Hardware Generation via Reinforcement Learning"
+   ]
+  },
+  {
+   "topic": 28,
+   "label": "28: autonomous driving \u00b7 scenario \u00b7 end",
+   "size": 159,
+   "words": [
+    {
+     "term": "driving",
+     "score": 0.09771000753418557
+    },
+    {
+     "term": "autonomous driving",
+     "score": 0.07554865432255742
+    },
+    {
+     "term": "autonomous",
+     "score": 0.04900197178739518
+    },
+    {
+     "term": "scenario",
+     "score": 0.023572164057485825
+    },
+    {
+     "term": "end",
+     "score": 0.02325627594330154
+    },
+    {
+     "term": "scenarios",
+     "score": 0.02194222323705377
+    },
+    {
+     "term": "safety",
+     "score": 0.02170647124202657
+    },
+    {
+     "term": "safety critical",
+     "score": 0.02014708986455202
+    },
+    {
+     "term": "planning",
+     "score": 0.01782219428888835
+    },
+    {
+     "term": "critical",
+     "score": 0.017633373183610527
+    },
+    {
+     "term": "traffic",
+     "score": 0.014642734724572268
+    },
+    {
+     "term": "scenario generation",
+     "score": 0.01461564226986501
+    }
+   ],
+   "by_year": {
+    "2025": 84,
+    "2026": 67,
+    "2024": 7,
+    "2023": 1
+   },
+   "examples": [
+    "Unveiling Uniform Shifted Power Law in Stochastic Human and Autonomous Driving Behavior",
+    "PCASim: Promptable Closed-loop Adversarial Simulation for Urban Traffic Environment",
+    "SurroundNEXO: Ego-Centric Metric Bridging for Spatially Consistent Geometry in Autonomous Driving",
+    "Progressive Bird's-Eye-View Perception for Safety-Critical Autonomous Driving: A Comprehensive Survey",
+    "ScenicRules: An Autonomous Driving Benchmark with Multi-Objective Specifications and Abstract Scenarios",
+    "Flow Matching-Based Autonomous Driving Planning with Advanced Interactive Behavior Modeling"
+   ]
+  },
+  {
+   "topic": 29,
+   "label": "29: software engineering \u00b7 swe \u00b7 engineering tasks",
+   "size": 157,
+   "words": [
+    {
+     "term": "software",
+     "score": 0.07935266709738877
+    },
+    {
+     "term": "software engineering",
+     "score": 0.06662460834399964
+    },
+    {
+     "term": "engineering",
+     "score": 0.06438509811973782
+    },
+    {
+     "term": "swe",
+     "score": 0.03548061633541257
+    },
+    {
+     "term": "engineering tasks",
+     "score": 0.02129195865751217
+    },
+    {
+     "term": "development",
+     "score": 0.01769198442527246
+    },
+    {
+     "term": "issue",
+     "score": 0.01734460030285354
+    },
+    {
+     "term": "repository",
+     "score": 0.016979316810423504
+    },
+    {
+     "term": "swe bench",
+     "score": 0.015502439686640076
+    },
+    {
+     "term": "software development",
+     "score": 0.014803459498112547
+    },
+    {
+     "term": "agents",
+     "score": 0.014639675293619576
+    },
+    {
+     "term": "tasks",
+     "score": 0.014190769247143221
+    }
+   ],
+   "by_year": {
+    "2026": 98,
+    "2025": 55,
+    "2024": 4
+   },
+   "examples": [
+    "SWE-TRACE: Optimizing Long-Horizon SWE Agents through Rubric Process Reward Models and Heuristic Test-Time Scaling",
+    "Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling",
+    "Trust-Aware Multi-Agent Traceability: Confidence-Calibrated Knowledge Graphs for Consistent Software Artifact Management",
+    "Making Software Meaningful",
+    "AGENTIC PROBLEM FRAMES: A SYSTEMATIC APPROACH TO ENGINEERING RELIABLE DOMAIN AGENTS",
+    "AI Software Engineer: Programming with Trust"
+   ]
+  },
+  {
+   "topic": 30,
+   "label": "30: zero shot \u00b7 agent \u00b7 multi",
+   "size": 149,
+   "words": [
+    {
+     "term": "zero shot",
+     "score": 0.07484315361669157
+    },
+    {
+     "term": "shot",
+     "score": 0.07387904459612706
+    },
+    {
+     "term": "zero",
+     "score": 0.0673866783302595
+    },
+    {
+     "term": "agent",
+     "score": 0.013214101778360212
+    },
+    {
+     "term": "multi",
+     "score": 0.012938223093164537
+    },
+    {
+     "term": "shot generalization",
+     "score": 0.011137183466994787
+    },
+    {
+     "term": "prompting",
+     "score": 0.011034647068125377
+    },
+    {
+     "term": "llm",
+     "score": 0.010830176288551666
+    },
+    {
+     "term": "multi agent",
+     "score": 0.010821413758925511
+    },
+    {
+     "term": "generalization",
+     "score": 0.010571132506843578
+    },
+    {
+     "term": "reasoning",
+     "score": 0.010313518554286917
+    },
+    {
+     "term": "transfer",
+     "score": 0.010027822642242877
+    }
+   ],
+   "by_year": {
+    "2026": 80,
+    "2025": 56,
+    "2024": 10,
+    "2023": 3
+   },
+   "examples": [
+    "ZERO-SHOT 3D MAP GENERATION WITH LLM AGENTS: A DUAL-AGENT ARCHITECTURE FOR PROCEDURAL CONTENT GENERATION",
+    "Exploring LLMs for Predicting Tutor Strategy and Student Outcomes in Dialogues",
+    "A Multi-Agent Approach for Claim Verification from Tabular Data Documents",
+    "PlatoLTL: Learning to Generalize Across Symbols in LTL Instructions for Multi-Task RL",
+    "FloCA: Towards Faithful and Logically Consistent Flowchart Reasoning",
+    "PLAY2PROMPT: Zero-shot Tool Instruction Optimization for LLM Agents via Tool Play"
+   ]
+  },
+  {
+   "topic": 31,
+   "label": "31: mcp \u00b7 protocol \u00b7 model context",
+   "size": 149,
+   "words": [
+    {
+     "term": "mcp",
+     "score": 0.0860098526396228
+    },
+    {
+     "term": "protocol",
+     "score": 0.05484534773971181
+    },
+    {
+     "term": "model context",
+     "score": 0.050086660231696355
+    },
+    {
+     "term": "context protocol",
+     "score": 0.049956570941032764
+    },
+    {
+     "term": "protocol mcp",
+     "score": 0.03236830599755294
+    },
+    {
+     "term": "server",
+     "score": 0.02982381390238854
+    },
+    {
+     "term": "context",
+     "score": 0.026331580719947106
+    },
+    {
+     "term": "servers",
+     "score": 0.0244606989753256
+    },
+    {
+     "term": "model",
+     "score": 0.023480708853235433
+    },
+    {
+     "term": "tool",
+     "score": 0.02165372500022315
+    },
+    {
+     "term": "mcp servers",
+     "score": 0.020918625537389386
+    },
+    {
+     "term": "security",
+     "score": 0.016234828578183893
+    }
+   ],
+   "by_year": {
+    "2026": 76,
+    "2025": 73
+   },
+   "examples": [
+    "Thucy: An LLM-based Multi-Agent System for Claim Verification across Relational Databases",
+    "A Survey of AI Agent Protocols",
+    "Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI",
+    "Security Threat Modeling for Emerging AI-Agent Protocols: A Comparative Analysis of MCP, A2A, Agora, and ANP",
+    "Model Context Protocol (MCP) Tool Descriptions Are Smelly! Towards Improving AI Agent Efficiency with Augmented MCP Tool Descriptions",
+    "Toward PDDL Planning Copilot"
+   ]
+  },
+  {
+   "topic": 32,
+   "label": "32: multi turn \u00b7 dialogue \u00b7 user",
+   "size": 148,
+   "words": [
+    {
+     "term": "turn",
+     "score": 0.075328891585845
+    },
+    {
+     "term": "multi turn",
+     "score": 0.06902259006205233
+    },
+    {
+     "term": "multi",
+     "score": 0.03145599546720675
+    },
+    {
+     "term": "dialogue",
+     "score": 0.02104949368362625
+    },
+    {
+     "term": "user",
+     "score": 0.018042054441700015
+    },
+    {
+     "term": "dialogues",
+     "score": 0.01627458807880224
+    },
+    {
+     "term": "tool",
+     "score": 0.014429761852701716
+    },
+    {
+     "term": "llm",
+     "score": 0.01438819784254975
+    },
+    {
+     "term": "llms",
+     "score": 0.013369402292443516
+    },
+    {
+     "term": "agent",
+     "score": 0.01298931440114396
+    },
+    {
+     "term": "benchmark",
+     "score": 0.012689904084407908
+    },
+    {
+     "term": "interactions",
+     "score": 0.012199009457659253
+    }
+   ],
+   "by_year": {
+    "2026": 86,
+    "2025": 57,
+    "2024": 5
+   },
+   "examples": [
+    "MemSlides: A Hierarchical Memory Driven Agent Framework for Personalized Slide Generation with Multi-turn Local Revision",
+    "ContextualLVLM-Agent: A Holistic Framework for Multi-Turn Visually-Grounded Dialogue and Complex Instruction Following",
+    "Towards Multi-Turn Dialog Systems for Industrial Asset Operations and Maintenance",
+    "CONFETTI: Conversational Function-Calling Evaluation Through Turn-Level Interactions",
+    "Dark and Bright Side of Participatory Red-Teaming with Targets of Stereotyping for Eliciting Harmful Behaviors from Large Language Models",
+    "OMS: On-the-fly, Multi-Objective, Self-Reflective Ad Keyword Generation via LLM Agent"
+   ]
+  },
+  {
+   "topic": 33,
+   "label": "33: language navigation \u00b7 vision language \u00b7 spatial",
+   "size": 145,
+   "words": [
+    {
+     "term": "navigation",
+     "score": 0.10346312119898891
+    },
+    {
+     "term": "vision",
+     "score": 0.04076145291408725
+    },
+    {
+     "term": "language navigation",
+     "score": 0.04033325020811866
+    },
+    {
+     "term": "vision language",
+     "score": 0.038932386004885806
+    },
+    {
+     "term": "spatial",
+     "score": 0.034794904665440204
+    },
+    {
+     "term": "language",
+     "score": 0.027257896137504657
+    },
+    {
+     "term": "object",
+     "score": 0.026986319056096997
+    },
+    {
+     "term": "zero shot",
+     "score": 0.023269472155706412
+    },
+    {
+     "term": "visual",
+     "score": 0.022374460705302638
+    },
+    {
+     "term": "3d",
+     "score": 0.022106165824487205
+    },
+    {
+     "term": "goal",
+     "score": 0.021477689410292405
+    },
+    {
+     "term": "zero",
+     "score": 0.021467894307481455
+    }
+   ],
+   "by_year": {
+    "2026": 102,
+    "2025": 36,
+    "2024": 5,
+    "2023": 2
+   },
+   "examples": [
+    "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning",
+    "What Limits Vision-and-Language Navigation ?",
+    "P3Nav: A Unified Framework for Embodied Navigation Integrating Perception, Planning, and Prediction",
+    "Stairway to Success: Zero-Shot Floor-Aware Object-Goal Navigation via LLM-Driven Coarse-to-Fine Exploration",
+    "MSNav: Zero-Shot Vision-and-Language Navigation with Dynamic Memory and LLM Spatial Reasoning",
+    "AgenticNav: Zero-Shot Vision-and-Language Navigation as a Tool-Calling Harness"
+   ]
+  },
+  {
+   "topic": 34,
+   "label": "34: world models \u00b7 latent \u00b7 action",
+   "size": 141,
+   "words": [
+    {
+     "term": "world",
+     "score": 0.07747494868858631
+    },
+    {
+     "term": "world model",
+     "score": 0.053952859002039166
+    },
+    {
+     "term": "world models",
+     "score": 0.0476547594277892
+    },
+    {
+     "term": "latent",
+     "score": 0.039920902516694626
+    },
+    {
+     "term": "model",
+     "score": 0.0370011333849069
+    },
+    {
+     "term": "models",
+     "score": 0.028090831241440312
+    },
+    {
+     "term": "action",
+     "score": 0.02423714306098656
+    },
+    {
+     "term": "video",
+     "score": 0.0209075021564414
+    },
+    {
+     "term": "space",
+     "score": 0.014925226696043924
+    },
+    {
+     "term": "dynamics",
+     "score": 0.01472453901382847
+    },
+    {
+     "term": "planning",
+     "score": 0.014222866772200417
+    },
+    {
+     "term": "embodied",
+     "score": 0.013859544667370334
+    }
+   ],
+   "by_year": {
+    "2026": 108,
+    "2025": 26,
+    "2024": 7
+   },
+   "examples": [
+    "World2Act: Latent Action Post-Training via Skill-Compositional World Models",
+    "Qwen-RobotWorld: Unifying Embodied World Modeling through Language-Conditioned Video Generation",
+    "WORLD MODEL FOR AI AUTONOMOUS NAVIGATION IN MECHANICAL THROMBECTOMY",
+    "From Kepler to Newton: Inductive Biases Guide Learned World Models in Transformers",
+    "RAY-TOLD: Ray-Based Latent Dynamics for Dense Dynamic Obstacle Avoidance with TDMPC",
+    "Is Your Driving World Model an All-Around Player?"
+   ]
+  },
+  {
+   "topic": 35,
+   "label": "35: natural language \u00b7 text sql \u00b7 schema",
+   "size": 137,
+   "words": [
+    {
+     "term": "sql",
+     "score": 0.06061950430543512
+    },
+    {
+     "term": "natural language",
+     "score": 0.04771724668819297
+    },
+    {
+     "term": "natural",
+     "score": 0.04733713958473783
+    },
+    {
+     "term": "language",
+     "score": 0.033287140750447614
+    },
+    {
+     "term": "text sql",
+     "score": 0.028510239835443065
+    },
+    {
+     "term": "text",
+     "score": 0.021494824085817786
+    },
+    {
+     "term": "schema",
+     "score": 0.018570036696100155
+    },
+    {
+     "term": "agent",
+     "score": 0.015431685070982309
+    },
+    {
+     "term": "database",
+     "score": 0.015408950947818512
+    },
+    {
+     "term": "llm",
+     "score": 0.01451852351504216
+    },
+    {
+     "term": "generation",
+     "score": 0.014322318999986533
+    },
+    {
+     "term": "queries",
+     "score": 0.014130482493288181
+    }
+   ],
+   "by_year": {
+    "2026": 70,
+    "2025": 64,
+    "2023": 2,
+    "2024": 1
+   },
+   "examples": [
+    "Chat2Workflow: A Benchmark for Generating Executable Visual Workflows with Natural Language",
+    "PExA: Parallel Exploration Agent for Complex Text-to-SQL",
+    "MapStory: LLM-Powered Text-Driven Map Animation Prototyping with Human-in-the-Loop Editing",
+    "Conversation Routines: A Prompt Engineering Framework for Task-Oriented Dialog Systems",
+    "Agentic Language-to-Objective Synthesis for Optofluidic Assembly",
+    "Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language"
+   ]
+  },
+  {
+   "topic": 36,
+   "label": "36: understanding \u00b7 video generation \u00b7 long",
+   "size": 132,
+   "words": [
+    {
+     "term": "video",
+     "score": 0.12361582692544261
+    },
+    {
+     "term": "understanding",
+     "score": 0.03349716828049841
+    },
+    {
+     "term": "video generation",
+     "score": 0.028973871524603827
+    },
+    {
+     "term": "long",
+     "score": 0.024991977854095498
+    },
+    {
+     "term": "temporal",
+     "score": 0.021500958968057534
+    },
+    {
+     "term": "visual",
+     "score": 0.020726182565436554
+    },
+    {
+     "term": "videos",
+     "score": 0.019852401736015907
+    },
+    {
+     "term": "long video",
+     "score": 0.019381928617964665
+    },
+    {
+     "term": "reasoning",
+     "score": 0.01887642294018579
+    },
+    {
+     "term": "generation",
+     "score": 0.017779119597583902
+    },
+    {
+     "term": "audio",
+     "score": 0.017531352001307076
+    },
+    {
+     "term": "long form",
+     "score": 0.016242510294961997
+    }
+   ],
+   "by_year": {
+    "2026": 95,
+    "2025": 31,
+    "2024": 6
+   },
+   "examples": [
+    "SVAgent: Storyline-Guided Long Video Understanding via Cross-Modal Multi-Agent Collaboration",
+    "AnimeAgent: Is the Multi-Agent via Image-to-Video models a Good Disney Storytelling Artist?",
+    "Automated Movie Generation via Multi-Agent CoT Planning",
+    "MoA-VR: A Mixture-of-Agents System Towards All-in-One Video Restoration",
+    "COMIC: Agentic Sketch Comedy Generation",
+    "MAVEN: A Multi-stage Agentic Annotation Pipeline for Video Reasoning Tasks"
+   ]
+  },
+  {
+   "topic": 37,
+   "label": "37: tree search \u00b7 mcts \u00b7 carlo tree",
+   "size": 127,
+   "words": [
+    {
+     "term": "search",
+     "score": 0.05587226957222549
+    },
+    {
+     "term": "tree search",
+     "score": 0.04894497898736549
+    },
+    {
+     "term": "tree",
+     "score": 0.047873961573665504
+    },
+    {
+     "term": "mcts",
+     "score": 0.033793967656941315
+    },
+    {
+     "term": "carlo tree",
+     "score": 0.03207502705024279
+    },
+    {
+     "term": "monte",
+     "score": 0.03200821962710063
+    },
+    {
+     "term": "carlo",
+     "score": 0.03200821962710063
+    },
+    {
+     "term": "monte carlo",
+     "score": 0.03200821962710063
+    },
+    {
+     "term": "prompt",
+     "score": 0.02629810942066972
+    },
+    {
+     "term": "optimization",
+     "score": 0.021296320843530052
+    },
+    {
+     "term": "prompts",
+     "score": 0.017308206310517073
+    },
+    {
+     "term": "prompt optimization",
+     "score": 0.016919015627637854
+    }
+   ],
+   "by_year": {
+    "2025": 59,
+    "2026": 52,
+    "2024": 14,
+    "2023": 2
+   },
+   "examples": [
+    "Prompt Stability Matters: Evaluating and Optimizing Auto-Generated Prompt in General-Purpose Systems",
+    "AICHILLES: Automatically Uncovering Hidden Weaknesses in AI-Evolved Systems",
+    "UPA: Unsupervised Prompt Agent via Tree-Based Search and Selection",
+    "Where to Search: Measure the Prior-Structured Search Space of LLM Agents",
+    "A Study on Leveraging Search and Self-Feedback for Agent Reasoning",
+    "RF-Agent: Automated Reward Function Design via Language Agent Tree Search"
+   ]
+  },
+  {
+   "topic": 38,
+   "label": "38: tools \u00b7 tool calling \u00b7 tool selection",
+   "size": 122,
+   "words": [
+    {
+     "term": "tool",
+     "score": 0.10409713708388427
+    },
+    {
+     "term": "tools",
+     "score": 0.02867385924588901
+    },
+    {
+     "term": "calling",
+     "score": 0.020606932391870794
+    },
+    {
+     "term": "tool calling",
+     "score": 0.020162734162907682
+    },
+    {
+     "term": "tool selection",
+     "score": 0.018158955878015068
+    },
+    {
+     "term": "llm",
+     "score": 0.01767884356850189
+    },
+    {
+     "term": "calls",
+     "score": 0.015437742072973926
+    },
+    {
+     "term": "tool augmented",
+     "score": 0.014164379718743618
+    },
+    {
+     "term": "selection",
+     "score": 0.013965360441510907
+    },
+    {
+     "term": "llm agent",
+     "score": 0.013103815838630954
+    },
+    {
+     "term": "execution",
+     "score": 0.012931304068493864
+    },
+    {
+     "term": "task",
+     "score": 0.012927927670856746
+    }
+   ],
+   "by_year": {
+    "2026": 79,
+    "2025": 34,
+    "2024": 8,
+    "2023": 1
+   },
+   "examples": [
+    "ChemHAS: Hierarchical Agent Stacking for Enhancing Chemistry Tools",
+    "GTM: Simulating the World of Tools for AI Agents",
+    "Scrutinizing Variables for Checkpoint Using Automatic Differentiation",
+    "Reinforced Agent: Inference-Time Feedback for Tool-Calling Agents",
+    "MeNTi: Bridging Medical Calculator and LLM Agent with Nested Tool Calling",
+    "THE REASONING TRAP: How ENHANCING LLM REASONING AMPLIFIES TOOL HALLUCINATION"
+   ]
+  },
+  {
+   "topic": 39,
+   "label": "39: 3d \u00b7 scene \u00b7 spatial",
+   "size": 120,
+   "words": [
+    {
+     "term": "3d",
+     "score": 0.09063295963208219
+    },
+    {
+     "term": "scene",
+     "score": 0.05777922316745056
+    },
+    {
+     "term": "spatial",
+     "score": 0.04584598440535145
+    },
+    {
+     "term": "object",
+     "score": 0.03482053119126681
+    },
+    {
+     "term": "3d scene",
+     "score": 0.026958313517708648
+    },
+    {
+     "term": "spatial reasoning",
+     "score": 0.022625523689319898
+    },
+    {
+     "term": "scene graph",
+     "score": 0.021731692541175265
+    },
+    {
+     "term": "scenes",
+     "score": 0.019627425582514152
+    },
+    {
+     "term": "reconstruction",
+     "score": 0.017309673319159523
+    },
+    {
+     "term": "2d",
+     "score": 0.01722394973904303
+    },
+    {
+     "term": "visual",
+     "score": 0.01661171819077462
+    },
+    {
+     "term": "geometric",
+     "score": 0.016217296285746165
+    }
+   ],
+   "by_year": {
+    "2026": 83,
+    "2025": 29,
+    "2024": 6,
+    "2023": 2
+   },
+   "examples": [
+    "MA3DSG: Multi-Agent 3D Scene Graph Generation for Large-Scale Indoor Environments",
+    "Learning From a Steady Hand: A Weakly Supervised Agent for Robot Assistance under Microscopy",
+    "3DGraphLLM: Combining Semantic Graphs and Large Language Models for 3D Scene Understanding",
+    "WorldAgents: Can Foundation Image Models be Agents for 3D World Models?",
+    "Cooperative Perception: A Resource-Efficient Framework for Multi-Drone 3D Scene Reconstruction Using Federated Diffusion and NeRF",
+    "Addressing Data Scarcity in 3D Trauma Detection through Self-Supervised and Semi-Supervised Learning with Vertex Relative Position Encoding"
+   ]
+  },
+  {
+   "topic": 40,
+   "label": "40: deep research \u00b7 research agents \u00b7 synthesis",
+   "size": 101,
+   "words": [
+    {
+     "term": "deep research",
+     "score": 0.09007235332438356
+    },
+    {
+     "term": "deep",
+     "score": 0.07695156521276698
+    },
+    {
+     "term": "research",
+     "score": 0.07512756988938941
+    },
+    {
+     "term": "research agents",
+     "score": 0.0451625733969257
+    },
+    {
+     "term": "search",
+     "score": 0.020958987698642156
+    },
+    {
+     "term": "research agent",
+     "score": 0.01649362639464855
+    },
+    {
+     "term": "agents",
+     "score": 0.01629517882533549
+    },
+    {
+     "term": "synthesis",
+     "score": 0.014015606407881877
+    },
+    {
+     "term": "evaluation",
+     "score": 0.013905826139097311
+    },
+    {
+     "term": "evidence",
+     "score": 0.013584978516276507
+    },
+    {
+     "term": "retrieval",
+     "score": 0.013490764645797834
+    },
+    {
+     "term": "report",
+     "score": 0.013172734927267844
+    }
+   ],
+   "by_year": {
+    "2026": 67,
+    "2025": 34
+   },
+   "examples": [
+    "Search Discipline for Long-Horizon Research Agents",
+    "Mind2Report: A Cognitive Deep Research Agent for Expert-Level Commercial Report Synthesis",
+    "DeepFact: Co-Evolving Benchmarks and Agents for Deep Research Factuality",
+    "AgentIR: Reasoning-Aware Retrieval for Deep Research Agents",
+    "OFFSEEKER: Online Reinforcement Learning Is Not All You Need for Deep Research Agents",
+    "SAGE: Benchmarking and Improving Retrieval for Deep Research Agents"
+   ]
+  },
+  {
+   "topic": 41,
+   "label": "41: web agents \u00b7 action \u00b7 environment",
+   "size": 99,
+   "words": [
+    {
+     "term": "web",
+     "score": 0.11397262798319313
+    },
+    {
+     "term": "web agents",
+     "score": 0.04608364519762344
+    },
+    {
+     "term": "web agent",
+     "score": 0.026988265534956347
+    },
+    {
+     "term": "action",
+     "score": 0.022505121491941445
+    },
+    {
+     "term": "agents",
+     "score": 0.018542408176333958
+    },
+    {
+     "term": "agent",
+     "score": 0.01801409920656384
+    },
+    {
+     "term": "environment",
+     "score": 0.017708015693134987
+    },
+    {
+     "term": "browser",
+     "score": 0.015235464152034622
+    },
+    {
+     "term": "tasks",
+     "score": 0.0144376445081047
+    },
+    {
+     "term": "web navigation",
+     "score": 0.013494969538417815
+    },
+    {
+     "term": "websites",
+     "score": 0.013367401785589744
+    },
+    {
+     "term": "observation",
+     "score": 0.013323271628500848
+    }
+   ],
+   "by_year": {
+    "2025": 49,
+    "2026": 44,
+    "2024": 6
+   },
+   "examples": [
+    "The Behavioral Fabric of LLM-Powered GUI Agents: Human Values and Interaction Outcomes",
+    "WEBDART: DYNAMIC DECOMPOSITION AND RE-PLANNING FOR COMPLEX WEB TASKS",
+    "Don\u2019t Click That: Teaching Web Agents to Resist Deceptive Interfaces",
+    "WebLists: Extracting Structured Information From Complex Interactive Websites Using Executable LLM Agents",
+    "Region4Web: Rethinking Observation Space Granularity for Web Agents",
+    "AgentWebBench: Benchmarking Multi-Agent Coordination in Agentic Web"
+   ]
+  },
+  {
+   "topic": 42,
+   "label": "42: privacy preserving \u00b7 sensitive \u00b7 user",
+   "size": 99,
+   "words": [
+    {
+     "term": "privacy",
+     "score": 0.14737239763935656
+    },
+    {
+     "term": "privacy preserving",
+     "score": 0.03406452897836712
+    },
+    {
+     "term": "preserving",
+     "score": 0.029649173046848564
+    },
+    {
+     "term": "sensitive",
+     "score": 0.029256540365592783
+    },
+    {
+     "term": "user",
+     "score": 0.026390672117570176
+    },
+    {
+     "term": "leakage",
+     "score": 0.02557639221912216
+    },
+    {
+     "term": "data",
+     "score": 0.0239457958782225
+    },
+    {
+     "term": "utility",
+     "score": 0.019348218194751743
+    },
+    {
+     "term": "private",
+     "score": 0.01817097873899037
+    },
+    {
+     "term": "cloud",
+     "score": 0.01702506604355031
+    },
+    {
+     "term": "information",
+     "score": 0.014978527702838274
+    },
+    {
+     "term": "privacy leakage",
+     "score": 0.01473870490594408
+    }
+   ],
+   "by_year": {
+    "2026": 62,
+    "2025": 35,
+    "2024": 2
+   },
+   "examples": [
+    "Investigating In-Context Privacy Learning by Integrating User-Facing Privacy Tools into Conversational Agents",
+    "Web Technologies Security in the AI Era: A Survey of CDN-Enhanced Defenses",
+    "Position: Life-Logging Video Streams Make the Privacy-Utility Trade-off Inevitable",
+    "CORE: Reducing UI Exposure in Mobile Agents via Collaboration Between Cloud and Local LLMs",
+    "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+    "From Privacy to Workflow Integrity: Communication-Graph Metadata in Autonomous Agent Interoperability"
+   ]
+  },
+  {
+   "topic": 43,
+   "label": "43: open ended \u00b7 open source \u00b7 evaluation",
+   "size": 94,
+   "words": [
+    {
+     "term": "open",
+     "score": 0.08013059735247675
+    },
+    {
+     "term": "ended",
+     "score": 0.05949972574794013
+    },
+    {
+     "term": "open ended",
+     "score": 0.057880558881509406
+    },
+    {
+     "term": "open source",
+     "score": 0.040127159191924854
+    },
+    {
+     "term": "source",
+     "score": 0.03715806949538462
+    },
+    {
+     "term": "evaluation",
+     "score": 0.017762611202732717
+    },
+    {
+     "term": "models",
+     "score": 0.016037290648162544
+    },
+    {
+     "term": "llms",
+     "score": 0.01493192553231939
+    },
+    {
+     "term": "agent",
+     "score": 0.012390781668589762
+    },
+    {
+     "term": "diversity",
+     "score": 0.011764144782637749
+    },
+    {
+     "term": "llm",
+     "score": 0.011103055896551783
+    },
+    {
+     "term": "ai",
+     "score": 0.011026669167889743
+    }
+   ],
+   "by_year": {
+    "2026": 40,
+    "2025": 40,
+    "2024": 11,
+    "2023": 3
+   },
+   "examples": [
+    "MILLSTONE: How Open-Minded Are LLMs?",
+    "Writing as a testbed for open ended agents",
+    "Evolutionary Systems Thinking: From Equilibrium Models to Open-Ended Adaptive Dynamics",
+    "Beyond Mimicry: Toward Lifelong Adaptability in Imitation Learning",
+    "RubricsTree: Scalable and Evolving Open-Ended Evaluation of Personal Health Agents across Health Memory and Medical Skills",
+    "VTutor: An Open-Source SDK for Generative AI-Powered Animated Pedagogical Agents with Multi-Media Output"
+   ]
+  },
+  {
+   "topic": 44,
+   "label": "44: agent debate \u00b7 multi agent \u00b7 judge",
+   "size": 91,
+   "words": [
+    {
+     "term": "debate",
+     "score": 0.13045657958912701
+    },
+    {
+     "term": "agent debate",
+     "score": 0.06194364152907875
+    },
+    {
+     "term": "multi agent",
+     "score": 0.03500113219193173
+    },
+    {
+     "term": "multi",
+     "score": 0.02927147275359814
+    },
+    {
+     "term": "judge",
+     "score": 0.028449054603898283
+    },
+    {
+     "term": "agent",
+     "score": 0.02746035735548943
+    },
+    {
+     "term": "llm",
+     "score": 0.019354377032939518
+    },
+    {
+     "term": "mad",
+     "score": 0.019208627085544445
+    },
+    {
+     "term": "consensus",
+     "score": 0.018347449808712436
+    },
+    {
+     "term": "reasoning",
+     "score": 0.015552407561912443
+    },
+    {
+     "term": "debates",
+     "score": 0.015032838588686957
+    },
+    {
+     "term": "confidence",
+     "score": 0.014197112415831145
+    }
+   ],
+   "by_year": {
+    "2025": 51,
+    "2026": 37,
+    "2024": 3
+   },
+   "examples": [
+    "Multi-Agent-as-Judge: Aligning LLM-Agent-Based Automated Evaluation with Multi-Dimensional Human Evaluation",
+    "Debate Only When Necessary: Adaptive Multiagent Collaboration for Efficient LLM Reasoning",
+    "MADRA: Multi-Agent Debate for Risk-Aware Embodied Planning",
+    "NewsLens: A Multi-Agent Framework for Adversarial News Bias Navigation",
+    "Heterogeneous LLM Debate Under Adversarial Peers: Honest Gains, Replacement Costs, and Resilience",
+    "WHEN DEBATE FAILS: BIAS REINFORCEMENT IN LARGE LANGUAGE MODELS"
+   ]
+  },
+  {
+   "topic": 45,
+   "label": "45: robot \u00b7 path \u00b7 planning",
+   "size": 90,
+   "words": [
+    {
+     "term": "robot",
+     "score": 0.047627343934901575
+    },
+    {
+     "term": "path",
+     "score": 0.045644836360256874
+    },
+    {
+     "term": "planning",
+     "score": 0.03067858237685858
+    },
+    {
+     "term": "multi robot",
+     "score": 0.02809215985105927
+    },
+    {
+     "term": "collision",
+     "score": 0.027777869562335283
+    },
+    {
+     "term": "agent path",
+     "score": 0.026544444886514168
+    },
+    {
+     "term": "multi",
+     "score": 0.02562707410753042
+    },
+    {
+     "term": "path finding",
+     "score": 0.025312226541327764
+    },
+    {
+     "term": "path planning",
+     "score": 0.024801642346218455
+    },
+    {
+     "term": "finding",
+     "score": 0.023031130173466766
+    },
+    {
+     "term": "environments",
+     "score": 0.021513828681978642
+    },
+    {
+     "term": "multi agent",
+     "score": 0.01953341308149943
+    }
+   ],
+   "by_year": {
+    "2026": 66,
+    "2025": 24
+   },
+   "examples": [
+    "Differentiable Environment-Trajectory Co-Optimization for Safe Multi-Agent Navigation",
+    "Modelling and Model-Checking a ROS2 Multi-Robot System using Timed Rebeca",
+    "MULTI-AGENT PATH-PLANNING IN A MOVING MEDIUM VIA WASSERSTEIN HAMILTONIAN FLOW",
+    "MPPI-based Informative Trajectory Planning for Search and Capture of Drifting Targets with ASVs",
+    "Varying Bundle Size Reactive Multi-Task Assignment using Selective Cost Estimation for Multi-Agent Systems",
+    "Robots with Attitudes: Influence of LLM-Driven Robot Personalities on Motivation and Performance"
+   ]
+  },
+  {
+   "topic": 46,
+   "label": "46: prediction \u00b7 fusion \u00b7 trajectory",
+   "size": 86,
+   "words": [
+    {
+     "term": "prediction",
+     "score": 0.042036571601329946
+    },
+    {
+     "term": "fusion",
+     "score": 0.03728672528763792
+    },
+    {
+     "term": "trajectory",
+     "score": 0.036955245736980454
+    },
+    {
+     "term": "trajectory prediction",
+     "score": 0.035702072144155265
+    },
+    {
+     "term": "feature",
+     "score": 0.02954892223905135
+    },
+    {
+     "term": "collaborative perception",
+     "score": 0.028341591553175362
+    },
+    {
+     "term": "perception",
+     "score": 0.028201228389270708
+    },
+    {
+     "term": "motion",
+     "score": 0.028102825163420487
+    },
+    {
+     "term": "encoder",
+     "score": 0.026128185053236726
+    },
+    {
+     "term": "collaborative",
+     "score": 0.023317249377713335
+    },
+    {
+     "term": "decoder",
+     "score": 0.02204496668483569
+    },
+    {
+     "term": "attention",
+     "score": 0.020331261214430636
+    }
+   ],
+   "by_year": {
+    "2026": 60,
+    "2025": 26
+   },
+   "examples": [
+    "Chatting about Conditional Trajectory Prediction",
+    "OmniPath: A Multi-Modal Agentic Framework for Auditing Wheelchair Accessibility",
+    "Time-series Meets Complex Motion Modeling: Robust and Computational-effective Motion Predictor for Multi-object Tracking",
+    "Differentiable Semantic Meta-Learning Framework for Long-Tail Motion Forecasting in Autonomous Driving",
+    "HeLoFusion: An Efficient and Scalable Encoder for Modeling Heterogeneous and Multi-Scale Interactions in Trajectory Prediction",
+    "Digital-Twin Losses for Lane-Compliant Trajectory Prediction at Urban Intersections"
+   ]
+  },
+  {
+   "topic": 47,
+   "label": "47: chain thought \u00b7 reasoning \u00b7 cot",
+   "size": 86,
+   "words": [
+    {
+     "term": "thought",
+     "score": 0.07281950991786186
+    },
+    {
+     "term": "chain thought",
+     "score": 0.06557528319880211
+    },
+    {
+     "term": "chain",
+     "score": 0.06414557771020274
+    },
+    {
+     "term": "reasoning",
+     "score": 0.058516593821476746
+    },
+    {
+     "term": "cot",
+     "score": 0.03816725409892963
+    },
+    {
+     "term": "thought reasoning",
+     "score": 0.0280550410581845
+    },
+    {
+     "term": "llms",
+     "score": 0.016882609239236422
+    },
+    {
+     "term": "llm",
+     "score": 0.013910478289690881
+    },
+    {
+     "term": "models",
+     "score": 0.013466143325775417
+    },
+    {
+     "term": "accuracy",
+     "score": 0.011494314346200267
+    },
+    {
+     "term": "process",
+     "score": 0.011047239542530467
+    },
+    {
+     "term": "reasoning llms",
+     "score": 0.011004307749145684
+    }
+   ],
+   "by_year": {
+    "2026": 41,
+    "2025": 33,
+    "2024": 8,
+    "2023": 4
+   },
+   "examples": [
+    "Terminal Wrench: A Dataset of 331 Reward-Hackable Environments and 3,632 Exploit Trajectories",
+    "ISCSLP 2026 CoT-TTS Challenge: Chain-of-Thought Reasoning for Context-Aware Text-to-Speech",
+    "FGDM: Reasoning Aware Multi-Agentic Framework for Software Bug Detection using Chain of Thought and Tree of Thought Prompting",
+    "LLM-based AI Agent for Sizing of Analog and Mixed Signal Circuit",
+    "Efficient Tool Use with Chain-of-Abstraction Reasoning",
+    "ALD optimization using reasoning LLMs: Performance of AI agents based on reasoning language models on ALD process optimization tasks"
+   ]
+  },
+  {
+   "topic": 48,
+   "label": "48: test time \u00b7 time scaling \u00b7 compute",
+   "size": 84,
+   "words": [
+    {
+     "term": "test time",
+     "score": 0.0852675372447735
+    },
+    {
+     "term": "test",
+     "score": 0.063644021951063
+    },
+    {
+     "term": "time",
+     "score": 0.061940447126147026
+    },
+    {
+     "term": "scaling",
+     "score": 0.053095535218515004
+    },
+    {
+     "term": "time scaling",
+     "score": 0.04215047693645541
+    },
+    {
+     "term": "compute",
+     "score": 0.03519706529172436
+    },
+    {
+     "term": "time compute",
+     "score": 0.031314944177969976
+    },
+    {
+     "term": "reasoning",
+     "score": 0.02309552711341824
+    },
+    {
+     "term": "inference",
+     "score": 0.02077731535310505
+    },
+    {
+     "term": "verifiers",
+     "score": 0.014199255775275081
+    },
+    {
+     "term": "search",
+     "score": 0.012202444312438462
+    },
+    {
+     "term": "models",
+     "score": 0.011116921735888949
+    }
+   ],
+   "by_year": {
+    "2026": 50,
+    "2025": 28,
+    "2024": 6
+   },
+   "examples": [
+    "ATLAS: Agentic Test-time Learning-to-Allocate Scaling",
+    "Active Inference as the Test-Time Scaling Law for Physical AI Agents",
+    "Towards Understanding Specification Gaming in Reasoning Models",
+    "Inference-Time Scaling for Diffusion Models beyond Scaling Denoising Steps",
+    "Revisiting Multi-Agent Debate as Test-Time Scaling: A Systematic Study of Conditional Effectiveness",
+    "EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents"
+   ]
+  },
+  {
+   "topic": 49,
+   "label": "49: multimodal \u00b7 image \u00b7 text",
+   "size": 81,
+   "words": [
+    {
+     "term": "multimodal",
+     "score": 0.049163018717408496
+    },
+    {
+     "term": "image",
+     "score": 0.048257634810296754
+    },
+    {
+     "term": "text",
+     "score": 0.039691464555153724
+    },
+    {
+     "term": "visual",
+     "score": 0.03197033949593052
+    },
+    {
+     "term": "generation",
+     "score": 0.031108349514314154
+    },
+    {
+     "term": "text image",
+     "score": 0.021600048990220794
+    },
+    {
+     "term": "modality",
+     "score": 0.019001035120292803
+    },
+    {
+     "term": "refinement",
+     "score": 0.01883720351660131
+    },
+    {
+     "term": "iterative",
+     "score": 0.017040592721634742
+    },
+    {
+     "term": "agent",
+     "score": 0.01606447014150791
+    },
+    {
+     "term": "image generation",
+     "score": 0.015536263289496532
+    },
+    {
+     "term": "textual",
+     "score": 0.01428157148933115
+    }
+   ],
+   "by_year": {
+    "2025": 38,
+    "2026": 27,
+    "2024": 11,
+    "2023": 5
+   },
+   "examples": [
+    "A Thousand Words or An Image: Studying the Influence of Persona Modality in Multimodal LLMs",
+    "RS-Gen: A Multi-Stage Agentic Framework for Reasoning and Search-Augmented Image Generation",
+    "Multimodal DeepResearcher: Generating Text-Chart Interleaved Reports From Scratch with Agentic Framework",
+    "Multi-Agent Multimodal Models for Multicultural Text to Image Generation",
+    "Mirror in the Model: Ad Banner Image Generation via Reflective Multi-LLM and Multi-modal Agents",
+    "InterChat: Enhancing Generative Visual Analytics using Multimodal Interactions"
+   ]
+  }
+ ]
+}
