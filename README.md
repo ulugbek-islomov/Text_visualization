@@ -24,6 +24,9 @@ python prepare_data.py Autonomous-Agents
 ```
 
 ## Deploy (free public URL)
-1. Create a public GitHub repo and upload `app.py`, `requirements.txt`, `README.md`, `prepare_data.py` and the `data/` folder.
+1. Create a public GitHub repo. Click **Add file → Upload files** and drag in these 5 files together:
+   `app.py`, `requirements.txt`, `papers.parquet`, `topics.json`, `README.md` (no folders needed).
 2. Go to https://share.streamlit.io → **Create app** → pick the repo, branch `main`, file `app.py` → **Deploy**.
 3. Copy the `https://<name>.streamlit.app` link for the submission.
+
+The app finds the data files either next to `app.py` or inside a `data/` folder.

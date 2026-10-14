@@ -18,7 +18,9 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS, CountVectorizer
 
 st.set_page_config(page_title="AI-Agent Research Text Explorer", page_icon="🤖", layout="wide")
 
-DATA = Path(__file__).parent / "data"
+HERE = Path(__file__).parent
+# Data files may sit in data/ or right next to app.py (easier GitHub upload)
+DATA = HERE / "data" if (HERE / "data" / "papers.parquet").exists() else HERE
 BLUE, ORANGE, GREY, LIGHT = "#0072B2", "#D55E00", "#9AA5B1", "#D9DEE3"
 OKABE = ["#0072B2", "#E69F00", "#009E73", "#D55E00", "#CC79A7", "#56B4E9", "#F0E442", "#000000"]
 
@@ -34,6 +36,10 @@ TEMPLATE_WORDS = {
 # ------------------------------------------------------------------ data
 @st.cache_data
 def load():
+    if not (DATA / "papers.parquet").exists() or not (DATA / "topics.json").exists():
+        st.error("Data files not found. Upload papers.parquet and topics.json to the repo, "
+                 "in the same place as app.py (or inside a data/ folder).")
+        st.stop()
     df = pd.read_parquet(DATA / "papers.parquet")
     df["text"] = df["title"] + ". " + df["summary"]
     meta = json.load(open(DATA / "topics.json"))
